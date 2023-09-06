@@ -102,3 +102,34 @@ Query er det jeg søger efter, i dette tilfældde test.
 
 Retur ok
 
+
+Øvelse 8: Flyt en fil
+
+Endpoint: https://api.dropboxapi.com/2/files/move_v2
+
+{
+    "allow_ownership_transfer": false,
+    "allow_shared_folder": false,
+    "autorename": false,
+    "from_path": "/TestMappe/test",
+    "to_path": "/Homework/math"
+}
+
+From path: flyttes fra
+to_path: flyttes hen
+
+
+
+Øvelse 9:
+
+Endpoint: https://api.dropboxapi.com/2/files/copy_v2
+
+{
+    "allow_ownership_transfer": false,
+    "allow_shared_folder": false,
+    "autorename": false,
+    "from_path": "/TestMappe/test",
+    "to_path": "/Homework/math"
+}
+
+
