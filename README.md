@@ -78,3 +78,27 @@ Parameter: {
 }
 
 DeleteFileRequestArgs argument der bruges til at delete.
+
+
+Opgave 7:
+
+Endpoint: https://api.dropboxapi.com/2/files/search_v2
+
+{
+    "match_field_options": {
+        "include_highlights": false
+    },
+    "options": {
+        "file_status": "active",
+        "filename_only": false,
+        "max_results": 20,
+        "path": "/Folder"
+    },
+    "query": "test"
+}
+
+
+Query er det jeg søger efter, i dette tilfældde test.
+
+Retur ok
+
